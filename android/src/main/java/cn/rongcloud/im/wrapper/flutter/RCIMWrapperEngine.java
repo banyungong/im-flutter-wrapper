@@ -174,6 +174,8 @@ public final class RCIMWrapperEngine implements MethodCallHandler {
   void unInit() {
     context = null;
     channel.setMethodCallHandler(null);
+    assets=null;
+    channel=null;
   }
 
   @Override
